@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina pruaba Flask</title>
+    <style>
+        body {
+            background-color: rgb(51, 133, 153);
+            
+        }
+        h1 {
+            color: darkblue;
+            font-size: xx-large;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border: 1px;
+                      
+        }
+        h2 {
+            color: darkgreen;
+            font-size: xx-large;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border: 1px;
+                      
+        }
+       
+        input {
+            color: rgb(157, 0, 255);
+            border-bottom:  double;
+            font-size: medium;
+            
+        }
+        button {
+            color: rgb(55, 0, 255);
+            border-bottom:  double;
+            font-size: medium;
+            font-family:'Times New Roman', Times, serif;
+        }
+        
+
+    </style>
+    <h1>Prácticas con flask!</h1> 
+</head> 
+<body> <h2>Hello World!</h2>
+  <form method="POST" action="/">
+		<button type="submit" name="button">Suma</button>
+    <br>
+   <!--  -->
+    <br>
+     <label for="nombre">Numero A: </label>
+    <br>
+    <input type="number"  name="numero_a" id="numero_a"  step="any">
+    <br>
+     <label for="nombre">Numero B: </label>
+    <br>
+    <input type="number"  name="numero_b" id="numero_b"  step="any">
+  
+   <br>
+
+   <br>
+     
+	 <input type="text" name="output" value="{{ output }}" readonly >
+</input>  
+</form>
+</body>
+</html>
+
