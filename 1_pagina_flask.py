@@ -40,7 +40,7 @@ def index():
       print('El botón ha sido presionado')
   return render_template ("index.html", output=output)
 #"<h1>Hello World!</h1>"
-#render_template ("index.html")
+##render_template ("index.html")
 
 #ruta
 @app.route('/saludos')
